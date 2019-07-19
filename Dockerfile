@@ -21,6 +21,4 @@ COPY docker-entrypoint.sh /
 EXPOSE 389
 EXPOSE 636
 
-VOLUME ["/ldif", "/var/lib/openldap/openldap-data"]
-
 ENTRYPOINT ["/docker-entrypoint.sh"]
